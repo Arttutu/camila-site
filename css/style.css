@@ -1,0 +1,42 @@
+/* import fonts from fonts.css e variaveis */
+@import url(./fonts.css);
+@import url(./variaveis.css);
+
+.header_area .main-menu .navbar .container .navbar-brand {
+  padding: 1.7rem;
+  text-transform: uppercase;
+  font-family: "Roboto", cursive;
+}
+#logo-nome {
+  margin: 0;
+}
+.header_area .main-menu .nav-item .nav-link {
+  font-family: var(--font);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--cor-padrao-link);
+}
+.header_area .main-menu .navbar .active {
+  background: var(--linear-gradiente);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.header_area .main-menu .navbar a:hover {
+  background: var(--linear-gradiente);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* start banner */
+#linha-horizontal {
+  width: 100%;
+  border: 1px solid;
+}
+#logo {
+  width: 300px;
+  height: 300px;
+}
+section {
+  font-family: var(--font);
+}

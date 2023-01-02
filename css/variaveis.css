@@ -1,0 +1,10 @@
+:root {
+  --font: "Roboto", cursive;
+  --menu-cor: $purple-100;
+  --linear-gradiente: linear-gradient(
+    90deg,
+    var(--bs-primary) 0%,
+    #854fee 100%
+  );
+  --cor-padrao-link: #141313;
+}
