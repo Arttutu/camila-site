@@ -44,6 +44,7 @@ section {
 /* star principal */
 #info {
   background-color: var(--cor-caixa);
+  padding: 20px;
   border-radius: 5px;
 }
 #info p {
