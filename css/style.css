@@ -54,3 +54,23 @@ section {
 .img-fluid {
   border-radius: 5px;
 }
+.camila02 {
+  width: 400px;
+  height: 400px;
+}
+#sobre-mim {
+  font-family: var(--font);
+  color: var(--cor-caixa);
+  font-size: 80px;
+}
+.sobre-mim-desc {
+  font-family: var(--font);
+}
+
+#btn-saiba-mais {
+  font-size: 20px;
+  padding: 10px;
+  background-color: var(--cor-caixa);
+  font-family: var(--font);
+  color: var(--cor-branca);
+}
