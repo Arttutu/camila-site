@@ -58,24 +58,49 @@ section {
   width: 350px;
   height: 350px;
 }
-#sobre-mim {
+.descricao {
+  font-family: var(--font);
+}
+.titulo {
   font-family: var(--font);
   color: var(--cor-caixa);
   font-size: 40px;
 }
-.sobre-mim-desc {
+.descricao2 {
+  margin: 0;
   font-family: var(--font);
+  color: var(--cor-branca);
 }
-
+.titulo2 {
+  font-family: var(--font);
+  color: var(--cor-branca);
+  font-size: 40px;
+}
 #btn-saiba-mais {
   font-size: 20px;
   padding: 10px;
   background-color: var(--cor-caixa);
   font-family: var(--font);
   color: var(--cor-branca);
+  transition: 0.2s;
 }
-.publicacao-titulo {
-  font-size: 40px;
-  margin: 50px 0px 0 0;
-  color: var(--cor-caixa);
+#btn-saiba-mais:hover {
+  background-color: whitesmoke;
+}
+.faq {
+  background-color: var(--cor-caixa);
+}
+.bi {
+  cursor: pointer;
+}
+
+/* responsividade */
+
+@media (max-width: 576px) {
+  .sobre-mim {
+    flex-direction: column;
+  }
+  .camila02 {
+    margin-bottom: 50px;
+  }
 }

@@ -8,7 +8,9 @@
   <title>Camila Andrade</title>
   <!-- Custom CSS -->
   <link href="css/style.css" rel="stylesheet" />
-
+  <!-- icone bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href="/css/bootstrap-icons.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
@@ -16,6 +18,7 @@
     crossorigin="anonymous"></script>
   <script src="js/jquery.js"></script>
   <script src="js/animacao.js"></script>
+  <script src="js/faq.js"></script>
 </head>
 
 <body>
@@ -112,23 +115,23 @@
   <div class="container-xl bg-body-secondary">
     <div class="row">
       <div class="col text-center">
-        <h1 class="mb-5 mt-5 " id="sobre-mim">Sobre Mim</h1>
+        <h1 class=" titulo mb-5 mt-5">Sobre Mim</h1>
       </div>
     </div>
-    <div class="row d-flex align-items-center">
+    <div class=" sobre-mim row d-flex align-items-center">
       <div class="col-4 text-center ">
-        <img class="camila02 img-fluid " src="./img/camila02.jpeg"></img>
+        <img class="camila02 img-fluid" src="./img/camila02.jpeg"></img>
       </div>
       <div class="col-8 text-center
       ">
-        <p class="sobre-mim-desc fs-5 ">Sou a psicóloga Camila Andrade e tenho como objetivo prestar uma
+        <p class="descricao fs-4 ">Sou a psicóloga Camila Andrade e tenho como objetivo prestar uma
           escuta
           especializada,
           em
           que o paciente
           possa fazer uso
           da psicoterapia como um lugar transformador.</p>
-        <p class="sobre-mim-desc fs-5 ">Sou pós graduanda em Terapia ABA e TCC. Minha atuação é dentro da
+        <p class="descricao fs-4 ">Sou pós graduanda em Terapia ABA e TCC. Minha atuação é dentro da
           abordagem
           cognitiva-comportamental, realizando a modalidade de psicoterapia breve, os mais diversos públicos.</p>
       </div>
@@ -141,12 +144,35 @@
     </div>
     <div class="row">
       <div class="col">
-        <h2 class=" publicacao-titulo text-center">Ultimas Publicações</h2>
+        <h2 class=" titulo publicacao-titulo text-center">Ultimas Publicações</h2>
       </div>
     </div>
   </div>
-  </main>
+  <div class="container-xl faq pb-5">
+    <div class="row ">
+      <div class="col">
+        <h2 class="titulo2 text-center mt-5 mb-5">FAQ</h2>
+      </div>
+    </div>
+    <div class="row  d-flex align-items-center text-center">
+      <div class="col fs-4  d-flex flex-row justify-content-center align-items-center gap-4 ">
+        <p class="descricao2">Posso fazer a consulta de graça ?</p>
+        <i class=" seta-baixo bi bi-arrow-down-circle" style="font-size: 3rem; color:white;"></i>
+      </div>
+      <p class="resposta1 descricao2 fs-4"> R: Você tem ate 100 consultas gratuitas, após isso começa a pagar</p>
+    </div>
+    <div class="row d-flex align-items-center  text-center">
+      <div class=" col fs-4  d-flex flex-row justify-content-center align-items-center gap-4">
+        <p class="descricao2">P: Exite algum tipo de cupom de desconto para amigos e família ?</p>
+        <i class=" seta-baixo2 bi bi-arrow-down-circle" style="font-size: 3rem; color:white;"></i>
+      </div>
+      <p class="resposta2 descricao2 fs-4 "> R: Claro o desconto é 100%
+      </p>
+    </div>
+
   </div>
+  </main>
+
 </body>
 
 </html>
