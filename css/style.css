@@ -29,7 +29,7 @@
   background-clip: text;
 }
 /* start banner */
-#linha-horizontal {
+.linha-horizontal {
   width: 100%;
   border: 1px solid var(--cor-caixa);
 }
@@ -90,6 +90,7 @@ section {
 .faq {
   background-color: var(--cor-caixa);
 }
+
 .bi {
   cursor: pointer;
 }
@@ -102,5 +103,8 @@ section {
   }
   .camila02 {
     margin-bottom: 50px;
+  }
+  .descricao2 {
+    text-align: left;
   }
 }
