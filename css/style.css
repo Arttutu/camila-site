@@ -85,7 +85,7 @@ section {
   transition: 0.2s;
 }
 #btn-saiba-mais:hover {
-  background-color: whitesmoke;
+  background-color: var(--cor-caixa2);
 }
 .faq {
   background-color: var(--cor-caixa);
@@ -95,6 +95,9 @@ section {
   cursor: pointer;
 }
 
+.rodape {
+  background-color: var(--cor-caixa2);
+}
 /* responsividade */
 
 @media (max-width: 576px) {
