@@ -8,6 +8,8 @@
   font-family: "Roboto", cursive;
 }
 #logo-nome {
+  color: var(--cor-caixa);
+  font-family: var(--font);
   margin: 0;
 }
 .header_area .main-menu .nav-item .nav-link {
@@ -87,6 +89,17 @@ section {
 #btn-saiba-mais:hover {
   background-color: var(--cor-caixa2);
 }
+#btn-enviar {
+  font-size: 20px;
+  padding: 10px 100px;
+  background-color: var(--cor-caixa);
+  font-family: var(--font);
+  color: var(--cor-branca);
+  transition: 0.2s;
+}
+#btn-enviar:hover {
+  background-color: var(--cor-caixa2);
+}
 .faq {
   background-color: var(--cor-caixa);
 }
@@ -94,9 +107,22 @@ section {
 .bi {
   cursor: pointer;
 }
-
+/* rodape */
 .rodape {
   background-color: var(--cor-caixa2);
+}
+#desenvolvedor {
+  font-size: 10px;
+}
+/* end rodape */
+/* form */
+.form-label {
+  font-family: var(--font);
+  color: var(--cor-caixa);
+}
+.form-control {
+  font-family: var(--font);
+  color: var(--cor-caixa1);
 }
 /* responsividade */
 
@@ -108,6 +134,6 @@ section {
     margin-bottom: 50px;
   }
   .descricao2 {
-    text-align: left;
+    text-align: center;
   }
 }

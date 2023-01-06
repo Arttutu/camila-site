@@ -46,9 +46,9 @@
   <div class="container-xl">
     <div class="header_area">
       <div class="main-menu">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg ">
           <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="./index.html">
               <p id="logo-nome" class="fs-6">Camila Andrade</p>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -62,27 +62,16 @@
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Sobre Mim</a>
+                  <a class="nav-link" href="./sobreMim.html">Sobre Mim</a>
                 </li>
 
                 <li class="nav-item">
                   <a class="nav-link">Blog</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  <a class="nav-link " href="#contato" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">Contato
                   </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Whatsaap</a></li>
-                    <li><a class="dropdown-item" href="#">XXXX</a></li>
-
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">outra coisa aqui</a>
-                    </li>
-                  </ul>
                 </li>
               </ul>
             </div>
@@ -93,6 +82,7 @@
     <!--End Header Area-->
     <!-- start principal -->
     <section>
+      <!-- cabecalho -->
       <div class="container">
         <div class="row">
           <div class="col linha-horizontal mb-2"></div>
@@ -159,7 +149,7 @@
     </div>
     <div class="row text-center pb-5">
       <div class="col mt-2">
-        <a href="#"><button class="btn" id="btn-saiba-mais">Saiba Mais</button> </a>
+        <a href="./sobreMim.html"><button class="btn" id="btn-saiba-mais">Saiba Mais</button> </a>
       </div>
     </div>
     <div class="row ">
@@ -196,20 +186,38 @@
     </div>
 
   </div>
-  <div class="container bg-body-secondary p-5">
-    <div class="row  mb-5">
-      <div class="col "></div>
-      <h2 class="titulo text-center">Contato</h2>
+  <div class="container bg-body-secondary p-5" id="contato">
+    <div class="row mb-">
+      <div class="col ">
+        <h2 class="titulo text-center">Duvida?</h2>
+
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col d-flex justify-content-center align-items-center gap-2">
+        <p class="descricao fs-4 mb-0">Entra em contato via email ou Whatsaap</p>.
+        <a href="#"><i class="bi bi-whatsapp" style="font-size: 2rem; color:#854fee;" alt="whats"></i></a>
+
+      </div>
     </div>
     <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      <label for="exampleFormControlInput1" class="form-label">Nome:</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome">
     </div>
     <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <label for="exampleFormControlInput1" class="form-label">Email:</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="endereço@dominio.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Mensagem:</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"
+        placeholder="Deixe sua mensagem"></textarea>
+    </div>
+    <div class="mb-3 text-center text-uppercase">
+      <a href="#"><button class="btn btn-lg text-uppercase" id="btn-enviar">Enviar</button> </a>
     </div>
   </div>
+  <!-- start-rodape -->
   <div class="container-xl rodape p-4 ">
     <div class="row">
       <div class="col  linha-horizontal mb-3 "></div>
@@ -225,7 +233,10 @@
         <div class="row text-center mt-3">
           <div class="col ">
             <P class="descricao2 ">Camila Andrade CRP:06/148691</P>
-            <P class="descricao2 ">Psicóloga Clínica</P>
+            <P class="descricao2 mb-4">Psicóloga Clínica</P>
+            <P class="descricao2" id="desenvolvedor">Desenvolvido por <a
+                href="https://www.linkedin.com/in/santos-gomes/">Arthur Gomes</a>
+            </P>
           </div>
         </div>
         <div class="row">
@@ -235,7 +246,7 @@
     </div>
 
   </div>
-
+  <!-- end-rodape -->
   </main>
 
 </body>
