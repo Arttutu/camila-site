@@ -1,5 +1,5 @@
 :root {
-  --font: "Roboto", cursive;
+  --font: "Ubunto";
   --linear-gradiente: linear-gradient(
     90deg,
     var(--bs-primary) 0%,
