@@ -62,7 +62,7 @@ section {
 }
 .descricao {
   font-family: var(--font);
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
 }
 .descricao2 {
@@ -149,7 +149,7 @@ section {
     margin-bottom: 50px;
   }
   .descricao {
-    font-size: 15px;
+    font-size: 20px;
     text-align: left;
   }
   .descricao2 {
