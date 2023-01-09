@@ -127,14 +127,10 @@ section {
   color: var(--cor-caixa1);
 }
 /* slider */
-.slider-foto {
-  width: 400px;
-  height: 400px;
+.publicacao {
+  background-color: var(--cor-caixa);
 }
-.carousel-item {
-  width: 400px;
-  height: 400px;
-}
+
 /* end-slider */
 /* responsividade */
 
