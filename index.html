@@ -20,25 +20,7 @@
   <script src="js/animacao.js"></script>
   <script src="js/faq.js"></script>
   <script src="js/jquery.instagramFeed.js"></script>
-  <script>
-    (function ($) {
-      $(window).on('load', function () {
-        $.instagramFeed({
-          'username': '__anaclaraaa',
-          'container': ".instagram",
-          'display_profile': false,
-          'display_biography': false,
-          'display_gallery': true,
-          'display_captions': false,
-          'callback': null,
-          'styling': true,
-          'items': 8,
-          'items_per_row': 4,
-          'margin': 1
-        });
-      });
-    })(jQuery);
-  </script>
+
 </head>
 
 <body>
@@ -157,32 +139,37 @@
         <h2 class=" titulo publicacao-titulo">Ultimas Publicações</h2>
       </div>
     </div>
-   <div id="carouselExampleIndicators" class="carousel slide carousel-dark ">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./img/instagram/instagram-01.jpeg" class="d-block w-100 slider-foto" alt="...">
+    <div id="carouselExampleIndicators" class="carousel slide carousel-dark ">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/instagram/instagram-01.jpeg" class="d-block w-100 slider-foto" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/instagram/instagram-01.jpeg" class="d-block w-100 slider-foto" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/instagram/instagram-01.jpeg" class="d-block w-100 slider-foto" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-item">
-      <img src="./img/instagram/instagram-01.jpeg" class="d-block w-100 slider-foto" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./img/instagram/instagram-01.jpeg" class="d-block w-100 slider-foto" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 
   </div>
   <div class="container bg-body-secondary p-5" id="contato">

@@ -62,16 +62,18 @@ section {
 }
 .descricao {
   font-family: var(--font);
-}
-.titulo {
-  font-family: var(--font);
-  color: var(--cor-caixa);
-  font-size: 40px;
+  font-size: 20px;
+  text-align: center;
 }
 .descricao2 {
   margin: 0;
   font-family: var(--font);
   color: var(--cor-branca);
+}
+.titulo {
+  font-family: var(--font);
+  color: var(--cor-caixa);
+  font-size: 40px;
 }
 .titulo2 {
   font-family: var(--font);
@@ -145,6 +147,10 @@ section {
   }
   .camila02 {
     margin-bottom: 50px;
+  }
+  .descricao {
+    font-size: 15px;
+    text-align: left;
   }
   .descricao2 {
     text-align: center;
