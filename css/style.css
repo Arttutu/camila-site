@@ -44,7 +44,9 @@ section {
 }
 /* end banner */
 /* star principal */
-
+.sobre-mim {
+  background-color: var(--cor-caixa);
+}
 #info {
   background-color: var(--cor-caixa);
   padding: 20px;
@@ -84,13 +86,13 @@ section {
 #btn-saiba-mais {
   font-size: 20px;
   padding: 10px;
-  background-color: var(--cor-caixa);
+  background-color: var(--cor-caixa2);
   font-family: var(--font);
   color: var(--cor-branca);
   transition: 0.2s;
 }
 #btn-saiba-mais:hover {
-  background-color: var(--cor-caixa2);
+  background-color: var(--cor-caixa);
 }
 #btn-enviar {
   font-size: 20px;
@@ -110,6 +112,16 @@ section {
 .bi {
   cursor: pointer;
 }
+#redes {
+  background-color: var(--cor-caixa);
+  padding: 15px;
+  border-radius: 5px;
+}
+#redes h2 {
+  font-family: var(--font);
+
+  color: var(--cor-branca);
+}
 /* rodape */
 .rodape {
   background-color: var(--cor-caixa2);
@@ -119,18 +131,19 @@ section {
 }
 /* end rodape */
 /* form */
-.form-label {
-  font-family: var(--font);
-  color: var(--cor-caixa);
+#nome {
+  border-color: var(--cor-caixa);
+  border-width: 2px;
 }
+
 .form-control {
   font-family: var(--font);
   color: var(--cor-caixa1);
 }
-/* slider */
-.publicacao {
-  background-color: var(--cor-caixa);
+ .error {
+  color: red;
 }
+/* slider */
 
 /* end-slider */
 /* responsividade */
@@ -151,5 +164,9 @@ section {
   }
   .descricao2 {
     text-align: center;
+  }
+  .publicacao-main {
+    flex-direction: column;
+    align-items: center;
   }
 }
