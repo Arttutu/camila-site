@@ -17,7 +17,6 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
   <script src="js/jquery.js"></script>
-  <script src="js/jqueryValidatte.js"></script>
   <script src="js/animacao.js"></script>
   <script src="js/faq.js"></script>
   <script src="js/form.js"></script>
@@ -146,7 +145,7 @@
       </div>
     </div>
     <div class=" row publicacao-main d-flex align-items-center p-5 gap-3">
-      <div class="col-6">
+      <div class="col-8">
         <div id="carouselExampleCaptions" class="carousel slide n" data-bs-touch="true">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -245,8 +244,11 @@
     </div>
     <div class="row form">
       <form id="form" action="https://formsubmit.co/arthurtt08@gmail.com" method="POST">
-        <input type="hidden" name="_next" valor="https://arttutu.github.io/camila-site/sobreMim.html">
+
+        <input type="hidden" name="_next" value="https://arttutu.github.io/camila-site/thanks.html">
+        <input type="hidden" name="_subject" value="Mensagem Site">
         <input type="hidden" name="_template" value="box">
+        <input type="hidden" name="_captcha" value="false">
         <div class=" mb-3 ">
           <label for="exampleFormControlInput1" class="form-label">Nome:</label>
           <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome" required>
@@ -259,6 +261,7 @@
           <label for="exampleFormControlInput1" class="form-label">Número:</label>
           <input type="number" class="form-control" id="numero" name="numero" placeholder="(55) 99 99999-9999" required>
         </div>
+
         <div class="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label">Mensagem:</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensagem"

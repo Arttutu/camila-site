@@ -131,10 +131,6 @@ section {
 }
 /* end rodape */
 /* form */
-#nome {
-  border-color: var(--cor-caixa);
-  border-width: 2px;
-}
 
 .form-control {
   font-family: var(--font);
