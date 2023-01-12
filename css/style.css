@@ -157,7 +157,7 @@ section {
     text-align: center;
   }
   .descricao2 {
-    text-align: center;
+    text-align: left;
   }
   .publicacao-main {
     flex-direction: column;
