@@ -15,11 +15,10 @@ $(document).ready(function () {
         number: true,
         range: [9, 11],
       },
-      errorPlacement: function (label, element) {
-        label.addClass("arrow")
-        label.insertAfter(element)
+      mensagem: {
+        required: true,
+        minlength: 5,
       },
-      wrapper: "span",
     },
   })
 })
