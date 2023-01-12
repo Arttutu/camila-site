@@ -1,0 +1,11 @@
+label.error {
+  height: 17px;
+  color: var(--cor-caixa);
+  margin-left: 9px;
+  padding: 1px 5px 0px 5px;
+  font-size: 17px;
+  font-family: var(--font);
+}
+input.error {
+  border: 2px solid var(--cor-caixa);
+}

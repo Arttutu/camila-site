@@ -8,6 +8,8 @@
   <title>Camila Andrade-Psicóloga</title>
   <!-- Custom CSS -->
   <link href="css/style.css" rel="stylesheet" />
+  <!-- Estilo validacao-->
+  <link href="css/style-validate.css" rel="stylesheet" />
   <!-- icone bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   <link href="/css/bootstrap-icons.css" rel="stylesheet">
@@ -19,9 +21,15 @@
   <script src="js/jquery.js"></script>
   <script src="js/animacao.js"></script>
   <script src="js/faq.js"></script>
-  <script src="js/form.js"></script>
 
-  </script>
+  <!-- jquery validate -->
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/additional-methods.min.js"></script>
+  <script src="js/localization/messages_pt_BR.js"></script>
+
+  <script type="text/javascript" src="js/form.js"></script>
+
+
 
 
 </head>
@@ -259,11 +267,11 @@
         </div>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Email:</label>
-          <input type="email" class="form-control" id="email" name="email " placeholder="endereço@dominio.com" required>
+          <input type="email" class="form-control" id="email" name="email" placeholder="endereço@dominio.com" required>
         </div>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Número:</label>
-          <input type="number" class="form-control" id="numero" name="numero" placeholder="(55) 99 99999-9999" required>
+          <input type="number" class="form-control" id="numero" name="numero" placeholder="99 99999-9999" required>
         </div>
 
         <div class="mb-3">
