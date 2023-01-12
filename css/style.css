@@ -44,9 +44,7 @@ section {
 }
 /* end banner */
 /* star principal */
-.sobre-mim {
-  background-color: var(--cor-caixa);
-}
+
 #info {
   background-color: var(--cor-caixa);
   padding: 20px;
@@ -86,13 +84,13 @@ section {
 #btn-saiba-mais {
   font-size: 20px;
   padding: 10px;
-  background-color: var(--cor-caixa2);
+  background-color: var(--cor-caixa);
   font-family: var(--font);
   color: var(--cor-branca);
   transition: 0.2s;
 }
 #btn-saiba-mais:hover {
-  background-color: var(--cor-caixa);
+  background-color: var(--cor-caixa2);
 }
 #btn-enviar {
   font-size: 20px;
@@ -148,7 +146,6 @@ section {
   .sobre-mim {
     flex-direction: column;
     font-size: 10px;
-    line-height: 20px;
     padding: 2px;
   }
   .camila02 {
@@ -156,7 +153,7 @@ section {
   }
   .descricao {
     font-size: 20px;
-    text-align: left;
+    text-align: center;
   }
   .descricao2 {
     text-align: center;
