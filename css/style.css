@@ -146,6 +146,7 @@ section {
   .sobre-mim {
     flex-direction: column;
     font-size: 10px;
+    line-height: 20px;
     padding: 2px;
   }
   .camila02 {
