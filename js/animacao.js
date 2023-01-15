@@ -6,3 +6,4 @@ $(document).ready(function () {
   $(".cabecalho").fadeOut(0)
   $(".cabecalho").fadeIn(2000)
 })
+$("html, body").animate({ scrollTop: "1000" })

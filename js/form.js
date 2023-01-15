@@ -13,7 +13,8 @@ $(document).ready(function () {
       },
       numero: {
         number: true,
-        range: [9, 11],
+        maxlength: 13,
+        minlength: 9,
       },
       mensagem: {
         required: true,
