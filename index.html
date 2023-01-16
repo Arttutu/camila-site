@@ -36,10 +36,10 @@
 
 <body>
   <!--Start Header Area-->
-  <div class="container-xl">
+  <div class="container-xl  mb-5">
     <div class="header_area">
       <div class="main-menu">
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar fixed-top navbar-expand-lg ">
           <div class="container">
             <a class="navbar-brand" href="./index.html">
               <p id="logo-nome" class="fs-6">Camila Andrade</p>
@@ -72,38 +72,44 @@
         </nav>
       </div>
     </div>
-    <!--End Header Area-->
-    <!-- start principal -->
-    <section>
-      <!-- cabecalho -->
-      <div class="container cabecalho">
-        <div class="row">
-          <div class="col linha-horizontal mb-2"></div>
-        </div>
-        <div class="row mt-2 d-flex align-items-center">
-          <div class="col text-center d-flex justify-content-center align-items-center gap-2">
-            <a href="#"><i class="bi bi-phone" style="font-size: 2rem; color:#854fee;" alt="telefone"></i></a>
-            <p class="fs-6 mb-0">Marque sua Consulta</p>
-          </div>
-          <div class="col-md-5 text-center">
-            <img class="img-fluid" src="img\logo.jpeg" alt="logo do site" id="logo" />
-          </div>
-          <div class="col-md mb-2 text-center">
-            <p class="fs-6">
-              Horário de Atendimento Segunda à
-              <strong>10h-22h Sexta: 10h-17h</strong>
-            </p>
-            <a href="#"><i class="bi bi-whatsapp" style="font-size: 2rem; color:#854fee;" alt="whats"></i></a>
-            <a href="#"><i class="bi bi-instagram" style="font-size: 2rem; color:#854fee;" alt="instagram"></i></a>
-          </div>
-          <div class="row">
-            <div class="col  linha-horizontal "></div>
-          </div>
-        </div>
-        <!-- end cabecalho -->
-    </section>
-    <!-- start principal -->
-    <main>
+  </div>
+  <!--End Header Area-->
+  <!-- start principal -->
+
+  <!-- cabecalho -->
+  <div class="container-xl cabecalho ">
+    <div class="row">
+      <div class="col linha-horizontal mb-2"></div>
+    </div>
+    <div class="row mt-2 d-flex align-items-center">
+      <div class="col text-center d-flex justify-content-center align-items-center gap-2">
+        <a href="#"><i class="bi bi-phone" style="font-size: 2rem; color:#854fee;" alt="telefone"></i></a>
+        <p class=" descricao fs-6 mb-0">Marque sua Consulta</p>
+      </div>
+      <div class="col-md-5 text-center">
+        <img class="img-fluid" src="img\logo.jpeg" alt="logo do site" id="logo" />
+      </div>
+      <div class="col-md mb-2 text-center">
+        <p class="fs-6 descricao">
+          Horário de Atendimento Segunda à
+          <strong>10h-22h Sexta: 10h-17h</strong>
+        </p>
+        <a href="https://api.whatsapp.com/send/?phone=5511956522521&text&type=phone_number&app_absent=0"><i
+            class="bi bi-whatsapp" style="font-size: 2rem; color:#854fee;" alt="whats"></i></a>
+        <a href="https://www.instagram.com/psicamila.andrade/?utm_medium=copy_link"><i class="bi bi-instagram"
+            style="font-size: 2rem; color:#854fee;" alt="instagram"></i></a>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col  linha-horizontal p-0"></div>
+    </div>
+  </div>
+  <!-- end cabecalho -->
+
+  <!-- start principal -->
+  <main>
+    <div class="container-xl">
       <div class="row mt-5 d-flex align-items-center ">
         <!-- <div class="col-5  ml-4 text-center">
           <img class="img-fluid" src="./img/camila.jpeg " alt="camila" />
@@ -114,38 +120,38 @@
           <p class="text-center">Clínica Accogliere CRP:06/148691</p>
         </div>
       </div>
-  </div>
-  </div>
-  <div class="container-xl sobre-mim  bg-body-secondary">
-    <div class="row">
-      <div class="col text-center">
-        <h1 class=" titulo mb-5 mt-5">Sobre Mim</h1>
+    </div>
+
+    <div class="container-xl sobre-mim  bg-body-secondary">
+      <div class="row">
+        <div class="col text-center">
+          <h1 class=" titulo mb-5 mt-5">Sobre Mim</h1>
+        </div>
+      </div>
+      <div class=" sobre-mim row d-flex align-items-center text-center">
+        <div class="col ">
+          <img class="camila02 img-fluid" src="./img/camila02.jpeg"></img>
+        </div>
+        <div class="col sobre-mim-desc ">
+          <p class="descricao fs-4 ">Sou a psicóloga Camila Andrade e tenho como objetivo prestar uma
+            escuta
+            especializada,
+            em
+            que o paciente
+            possa fazer uso
+            da psicoterapia como um lugar transformador.</p>
+          <p class="descricao fs-4 ">Sou pós graduanda em Terapia ABA e TCC. Minha atuação é dentro da
+            abordagem
+            cognitiva-comportamental, realizando a modalidade de psicoterapia breve, os mais diversos públicos.</p>
+        </div>
+      </div>
+      <div class="row text-center pb-5">
+        <div class="col mt-5">
+          <a href="./sobreMim.html"><button class="btn" id="btn-saiba-mais">Saiba Mais</button> </a>
+        </div>
       </div>
     </div>
-    <div class=" sobre-mim row d-flex align-items-center text-center">
-      <div class="col ">
-        <img class="camila02 img-fluid" src="./img/camila02.jpeg"></img>
-      </div>
-      <div class="col text-left">
-        <p class="descricao fs-4 ">Sou a psicóloga Camila Andrade e tenho como objetivo prestar uma
-          escuta
-          especializada,
-          em
-          que o paciente
-          possa fazer uso
-          da psicoterapia como um lugar transformador.</p>
-        <p class="descricao fs-4 ">Sou pós graduanda em Terapia ABA e TCC. Minha atuação é dentro da
-          abordagem
-          cognitiva-comportamental, realizando a modalidade de psicoterapia breve, os mais diversos públicos.</p>
-      </div>
-    </div>
-    <div class="row text-center pb-5">
-      <div class="col mt-5">
-        <a href="./sobreMim.html"><button class="btn" id="btn-saiba-mais">Saiba Mais</button> </a>
-      </div>
-    </div>
-  </div>
-  <!-- <div class="container-xl publicacao bg-body-secondary pb-5 ">
+    <!-- <div class="container-xl publicacao bg-body-secondary pb-5 ">
     <div class="row ">
       <div class="col text-center">
         <h2 class=" titulo publicacao-titulo p-5">Publicações</h2>
@@ -211,114 +217,114 @@
 
     </div>
   </div> -->
-  <!-- start faq -->
-  <div class="container-xl faq p-4">
-    <div class="row ">
-      <div class="col">
-        <h2 class="titulo2 text-center mt-4 mb-5">FAQ</h2>
-      </div>
-    </div>
-    <div class="row pergunta d-flex align-items-center text-center gap-2 mb-4">
-      <div class="col fs-4  d-flex  justify-content-center align-items-center gap-3 text-center ">
-        <p class="descricao2"> Posso fazer a consulta de graça ?</p>
-        <i class=" seta-baixo bi bi-plus" style="font-size: 3rem; color:white;"></i>
-      </div>
-      <p class="resposta1 descricao2 fs-4"> Você tem ate 100 consultas gratuitas, após isso começa a pagar</p>
-    </div>
-    <div class="row pergunta d-flex align-items-center  text-center gap-2">
-      <div class=" col fs-4  d-flex flex-row justify-content-center align-items-center gap-3 text-center">
-        <p class="descricao2"> Exite algum tipo de cupom de desconto para amigos e família ?</p>
-        <i class=" seta-baixo2 bi bi-plus" style="font-size: 3rem; color:white;"></i>
-      </div>
-      <p class="resposta2 descricao2 fs-4 "> Claro o desconto é 100%
-      </p>
-    </div>
-  </div>
-  <!-- end faq -->
-
-  <div class="container-xl bg-body-secondary p-5" id="contato">
-    <div class="row">
-      <div class="col  linha-horizontal mb-4"></div>
-    </div>
-    <div class="row mb-">
-      <div class="col ">
-        <h2 class="titulo text-center">Contato</h2>
-      </div>
-    </div>
-    <div class="row text-center">
-      <div class="col d-flex mb-4 mt-4 justify-content-center align-items-center gap-2">
-        <p class="titulo fs-4 mb-0">Entra em contato via email ou <a href="#">Whatsapp</a>
-        </p>.
-        <a href="#"><i class="bi bi-whatsapp" style="font-size: 2rem; color:#854fee;" alt="whats"></i></a>
-      </div>
-    </div>
-    <div class="row form">
-
-      <form id="form" action="https://formsubmit.co/arthurtt08@gmail.com" method="POST">
-
-        <input type="hidden" name="_next" value="https://arttutu.github.io/camila-site/thanks.html">
-        <input type="hidden" name="_subject" value="Mensagem Site">
-        <input type="hidden" name="_template" value="box">
-        <input type="hidden" name="_captcha" value="false">
-        <div class=" mb-3 ">
-          <label for="exampleFormControlInput1" class="form-label">Nome:</label>
-          <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome" required>
+    <!-- start faq -->
+    <div class="container-xl faq p-4">
+      <div class="row ">
+        <div class="col">
+          <h2 class="titulo2 text-center mt-4 mb-4">FAQ</h2>
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email:</label>
-          <input type="email" class="form-control" id="email" name="email" placeholder="endereço@dominio.com" required>
+      </div>
+      <div class="row  pergunta d-flex align-items-center gap-2 mb-4">
+        <div class="col fs-4  d-flex  justify-content-center align-items-center gap-3">
+          <p class="descricao2"> Posso fazer a consulta de graça ?</p>
+          <i class=" seta-baixo bi bi-plus" style="font-size: 3rem; color:white;"></i>
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Número:</label>
-          <input type="number" class="form-control" id="numero" name="numero" placeholder="99 99999-9999" required>
+        <p class="resposta1 descricao2 fs-4"> Você tem ate 100 consultas gratuitas, após isso começa a pagar
+        </p>
+      </div>
+      <div class="row pergunta d-flex align-items-center gap-2 pb-4">
+        <div class=" col fs-4  d-flex flex-row justify-content-center align-items-center gap-3 ">
+          <p class="descricao2"> Exite algum tipo de cupom de desconto para amigos e família ?</p>
+          <i class=" seta-baixo2 bi bi-plus" style="font-size: 3rem; color:white;"></i>
+        </div>
+        <p class="resposta2 descricao2 fs-4  "> Claro o desconto é 100%
+        </p>
+      </div>
+    </div>
+    <!-- end faq -->
+
+    <div class="container-xl bg-body-secondary p-5" id="contato">
+
+      <div class="row ">
+        <div class="col ">
+          <h2 class="titulo text-center">Contato</h2>
+        </div>
+      </div>
+      <div class="row text-center mt-3  mb-5">
+        <div class="col d-flex  mt-4 justify-content-center align-items-center gap-2">
+          <p class="titulo fs-4 mb-0">Entre em contato via email ou whatsapp</a>
+          </p>.
+          <a href="https://api.whatsapp.com/send/?phone=5511956522521&text&type=phone_number&app_absent=0"><i
+              class="bi bi-whatsapp" style="font-size: 2rem; color:#854fee;" alt="whats"></i></a>
         </div>
 
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Mensagem:</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensagem"
-            placeholder="Deixe sua mensagem" required></textarea>
-        </div>
-        <div class="mb-3 text-center text-uppercase">
-          <a href="#"><button type="submit" class="btn btn-lg text-uppercase" id="btn-enviar">Enviar</button> </a>
-        </div>
-      </form>
-      <div class="row m-0 p-0">
-        <div class="col  linha-horizontal mt-4"></div>
+      </div>
+      <div class="row form">
+
+        <form id="form" action="https://formsubmit.co/arthurtt08@gmail.com" method="POST">
+
+          <input type="hidden" name="_next" value="https://arttutu.github.io/camila-site/thanks.html">
+          <input type="hidden" name="_subject" value="Mensagem Site">
+          <input type="hidden" name="_template" value="box">
+          <input type="hidden" name="_captcha" value="false">
+          <div class=" mb-3 ">
+            <label for="exampleFormControlInput1" class="form-label">Nome:</label>
+            <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="endereço@dominio.com"
+              required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Número:</label>
+            <input type="number" class="form-control" id="numero" name="numero" placeholder="99 99999-9999" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensagem:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensagem"
+              placeholder="Deixe sua mensagem" required></textarea>
+          </div>
+          <div class="mb-3 text-center text-uppercase">
+            <a href="#"><button type="submit" class="btn btn-lg text-uppercase" id="btn-enviar">Enviar</button> </a>
+          </div>
+        </form>
+
       </div>
     </div>
-  </div>
 
-  <!-- start-rodape -->
-  <div class="container-xl rodape p-4 ">
-    <div class="row">
-      <div class="col  linha-horizontal mb-3 "></div>
-    </div>
-    <div class="row ">
-      <div class="col">
-        <p class="descricao2 fs-6 text-center"><strong>Atenção</strong>: Este site não oferece tratamento ou
-          aconselhamento
-          imediato para pessoas em crise suicida. Em caso de crise, ligue para 188 (CVV) ou acesse o site <a
-            href="https://www.cvv.org.br">www.cvv.org.br</a>. Em caso de emergência, procure atendimento em um
-          hospital
-          mais
-          próximo.</p>
-        <div class="row  mt-3">
-          <div class="col ">
-            <P class="descricao2 text-center">Camila Andrade CRP:06/148691</P>
-            <P class="descricao2 mb-4 text-center">Psicóloga Clínica</P>
-            <P class="descricao2 text-center" id="desenvolvedor">Desenvolvido por <a
-                href="https://www.linkedin.com/in/santos-gomes/">Arthur Gomes</a>
-            </P>
+    <!-- start-rodape -->
+    <div class="container-xl rodape p-4 ">
+      <div class="row">
+        <div class="col  linha-horizontal mb-3 "></div>
+      </div>
+      <div class="row ">
+        <div class="col">
+          <p class="descricao2 fs-6 text-center"><strong>Atenção</strong>: Este site não oferece tratamento ou
+            aconselhamento
+            imediato para pessoas em crise suicida. Em caso de crise, ligue para 188 (CVV) ou acesse o site <a
+              href="https://www.cvv.org.br">www.cvv.org.br</a>. Em caso de emergência, procure atendimento em um
+            hospital
+            mais
+            próximo.</p>
+          <div class="row  mt-3">
+            <div class="col ">
+              <P class="descricao2 text-center">Camila Andrade CRP:06/148691</P>
+              <P class="descricao2 mb-4 text-center">Psicóloga Clínica</P>
+              <P class="descricao2 text-center" id="desenvolvedor">Desenvolvido por <a
+                  href="https://www.linkedin.com/in/santos-gomes/">Arthur Gomes</a>
+              </P>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col  linha-horizontal mt-3"></div>
           </div>
         </div>
-        <div class="row">
-          <div class="col  linha-horizontal mt-3"></div>
-        </div>
       </div>
-    </div>
 
-  </div>
-  <!-- end-rodape -->
+    </div>
+    <!-- end-rodape -->
   </main>
 
 </body>
