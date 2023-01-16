@@ -1,6 +1,7 @@
 /* import fonts from fonts.css e variaveis */
 @import url(./fonts.css);
 @import url(./variaveis.css);
+
 .navbar {
   background-color: var(--cor-branca);
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.224);
@@ -149,6 +150,15 @@ div.sobre-mim-desc {
  .error {
   color: red;
 }
+/* end form */
+/* blog-link */
+.blog-link h2 {
+  transition: 0.5s;
+}
+.blog-link h2:hover {
+  color: var(--cor-caixa1);
+}
+/* end blog link */
 /* slider */
 
 /* end-slider */
