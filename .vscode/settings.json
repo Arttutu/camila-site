@@ -16,7 +16,7 @@
   // workbench
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Noctis Obscuro",
+  "workbench.colorTheme": "Community Material Theme Palenight",
 
   // prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -33,6 +33,6 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "liveServer.settings.port": 5501
 }

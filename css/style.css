@@ -62,7 +62,7 @@
   border-radius: 5px;
 }
 div.sobre-mim-desc {
-  padding-right: 40px;
+  padding-right: 50px;
 }
 .camila02 {
   width: 350px;
@@ -159,9 +159,14 @@ div.sobre-mim-desc {
   color: var(--cor-caixa1);
 }
 /* end blog link */
-/* slider */
+/* lista */
+li.list-group-item {
+  background-color: var(--cor-caixa);
+  color: var(--cor-branca);
 
-/* end-slider */
+  border: none;
+}
+/* end lista*/
 /* responsividade */
 @media (max-width: 576px) {
   div.sobre-mim-desc {
