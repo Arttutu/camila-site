@@ -182,6 +182,9 @@ li.list-group-item {
   .camila02 {
     margin-bottom: 50px;
   }
+  .titulo {
+    font-size: 35px;
+  }
   .descricao {
     font-size: 20px;
     text-align: center;
