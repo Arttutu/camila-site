@@ -143,10 +143,11 @@ div.sobre-mim-desc {
 /* end rodape */
 /* form */
 
-.form-control {
+label.form-label {
   font-family: var(--font);
-  color: var(--cor-caixa1);
+  color: var(--cor-caixa);
 }
+
  .error {
   color: red;
 }
