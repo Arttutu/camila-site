@@ -160,11 +160,21 @@ label.form-label {
   color: var(--cor-caixa1);
 }
 /* end blog link */
+/* animação */
+/* .anime {
+  opacity: 0;
+  transition: 1000s;
+  transform: translate3d(-150px, 0, 0);
+}
+.anime-start {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+} */
+/* end animação */
 /* lista */
 li.list-group-item {
   background-color: var(--cor-caixa);
   color: var(--cor-branca);
-
   border: none;
 }
 /* end lista*/
