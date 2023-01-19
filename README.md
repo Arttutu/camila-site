@@ -17,8 +17,8 @@ Site feito para a psicóloga Camila Andrade, utilizando boostrap e jquery. Com i
 
 ### Screenshot
 
-![](./img/captura-tela)
-![](./img/captura-tela2)
+![](./img/captura-tela.png)
+![](./img/captura-tela2.png)
 
 ### Links
 
@@ -42,7 +42,6 @@ Aprendi a utilizar Boostrap na construção de um web site real e responsivo.
 - [Boostrap](https://getbootstrap.com) - Esse framework front-end me ajudou a contruir a pagína de uma maneira organizado e descomplicada.
 - [JqueryValidation](https://jqueryvalidation.org/documentation/) - Esse Plugin do jquery me ajudou a fazer a validação do formulário.
 - [FormSubmit](https://formsubmit.co) - Esse site incrível me ajudou a fazer o envio do formulário para o email da psicóloga.
-- [Alura](https://www.alura.com.br/) - Essa é uma maravilhosa plataforma de estudos online, que me ajudou a entender melhor os conceitos de flexbox e CSS grid.
 
 ## Eu
 
